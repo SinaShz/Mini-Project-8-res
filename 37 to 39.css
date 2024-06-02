@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@font-face {
+    font-family: 'vazir';
+    src: url('../vazir-font-v16.1.0/Vazir.ttf');
+}
+body{
+    font-family: 'vazir';
+}
+.lalezar{
+    font-family: 'lalezar';
+}
+.text-center{
+    text-align: center;
+}
+header{
+    background-color: #37517e;
+}
+.navbar{
+    padding: 10px;
+    color: white;
+    letter-spacing: 10px;
+}
+section.intro{
+    color: white;
+    padding: 50px;
+}
+.title{
+    font-size: 30px;
+}
+.desc{
+    padding: 20px 0;
+    line-height: 1.5rem;
+    color: rgb(219, 215, 215);
+    text-align: justify;
+}
+.start-btn{
+    all: unset;
+    font-size: 20px;
+    border: 1px solid #ececec;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: all 0.5s;
+}
+.start-btn:hover{
+    background-color: white;
+    color: #37517e;
+}
+section{
+    padding: 15px;
+}
+.section-title{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'lalezar';
+    padding: 10px;
+}
+.card{
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all(0.5s);
+    text-align: center;
+    overflow: hidden;
+    margin-left: 15px;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.member_name{
+    color: rgb(64, 76, 241);
+    font-weight: bold;
+    padding: 10px;
+    font-size: 25px;
+}
+.member_job{
+    padding: 10px;
+    font-size: 16px;
+    color: rgb(119, 117, 117);
+}
+.member_desc{
+    text-align: justify;
+    padding: 20px 30px 20px;
+    color: gray;
+}
+.myself{
+    max-width: 55%;
+    max-height: 40%;
+    border-radius: 20px;
+}
+
+/* for courses */
+.col{
+    /* flex-basis: 100%; */
+    width: 100%;
+    padding: 0.5rem;
+}
+.card{
+    border: 1px solid #a39b9bfb;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-title{
+    padding: 10px 10px 40px;
+    font-weight: bold;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: rgb(185, 180, 180);
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+}
+.card-footer button{
+    all: unset;
+    background-color: rgb(122, 210, 240);
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+@media screen and (min-width:700px) {
+    .col{
+    width: 50%;
+    }
+}
+@media screen and (min-width:900px) {
+    .col{
+        width: 33%;
+    }
+}
+  /* footer */
+footer{
+    background-color: #37517e ;
+    color: white;
+    padding: 70px 20px;
+    margin-top: 30px;
+}
